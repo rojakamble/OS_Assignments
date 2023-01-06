@@ -1,0 +1,8 @@
+
+
+While copying the information from file A to file B; 
+I noticed that it takes a long time to copy the first few files. 
+However, after a while, the time restriction for content copying for a few files was reduced. 
+After a brief moment, there is a little exponential curve. 
+To minimize copying time, we must increase the RAM of an operating system. 
+This element can help to minimize the amount of time spent.

@@ -1,0 +1,25 @@
+A) Fork(): This system call is used for creating a new process known as the child process. 
+When the fork system call is written in the program, it will run concurrently with the process that makes the fork call. 
+After the new child process is created, it will execute the next instruction following the fork system call. 
+And child process also uses the same CPU, program counter, and duplicate files, which will be used by the parent process as well.
+
+B) Exit(): This system call will terminate the process normally. 
+When the exit is called in the program, any file that belongs to the processors is closed. 
+Most operating systems allow the terminating process to provide a specific exit status to the system, which is made available to the parent process.
+
+C) Getpid(): This system call returns the process ID of the calling process. 
+This is often used by routines that generate unique temporary.
+
+D) Getppid(): This system call returns the process ID of the parent of the calling process. 
+If the fork function created the calling process and the parent process still exists at the time of the getppid function call, this function returns the process ID of the parent process.
+
+E) Wait(): Wait, the system call will block the calling process until one of its child processes exits or a signal is created. 
+After the child process terminates, the parent continues its execution after the wait system call instruction. 
+If any process has more than one child process, then after calling wait(), the parent process has to be in a wait state if no child terminates.
+
+F) Kill(): This system call operation can be used to send any signal to any process group. 
+If PID is positive, then the signal is sent to process with the ID specified by the PID. 
+If PID equals zero, then the signal is sent to every process in the process.
+
+G) Exec(): This system call is related to OS. It runs as an executable file and does not create a new process. 
+When exec is used, the process identifier does not change. If this system call is used, then machine code, data, heap, and stack of the process are replaced by the new program.

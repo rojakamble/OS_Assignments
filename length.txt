@@ -1,0 +1,15 @@
+
+The maximum distance between the CPU and Cache memory = Speed/Frequency
+
+Our system can propagate at 85% of the speed of light 
+
+suppose if we want to design a processor that signals in our system is at 4GHz
+
+Given 4GHz = 4,000,000,000 or 4x10^9 cycles/second
+
+Speed of light = 3 x 10^8 meters/second
+
+
+Therefore the maximum distance between the memory and CPU would be :
+= (0.85 x 3 x 10^8) / (4 x 10^9)  
+= 0.06375 meters
